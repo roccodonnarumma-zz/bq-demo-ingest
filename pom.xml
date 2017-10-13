@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-bigquery</artifactId>
-            <version>0.8.1-beta</version>
+            <version>0.25.0-beta</version>
 
             <exclusions>
                 <exclusion>
@@ -33,6 +33,12 @@
                     <artifactId>slf4j-nop</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-storage</artifactId>
+            <version>1.7.0</version>
         </dependency>
 
         <dependency>
